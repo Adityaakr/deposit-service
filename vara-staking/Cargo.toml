@@ -1,0 +1,16 @@
+[package]
+name = "vara-staking"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+sails-rs = "0.1.1"
+parity-scale-codec = { version = "3", default-features = false, features = ["derive"] }
+scale-info = { version = "2", default-features = false, features = ["derive"] }
+
+[build-dependencies]
+sails-idl-gen = "0.1.1"
+
+[features]
+default = []
+wasm-binary = []

@@ -1,0 +1,26 @@
+{
+  "name": "cross-chain-staking-relayer",
+  "version": "1.0.0",
+  "description": "Relayer for cross-chain USDC staking between Ethereum and Vara",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node src/main.ts",
+    "start": "node dist/main.js"
+  },
+  "dependencies": {
+    "@gear-js/api": "^0.38.1",
+    "@polkadot/api": "^13.2.1",
+    "ethers": "^6.8.0",
+    "sails-js": "^0.3.0",
+    "sails-js-parser": "^0.3.0",
+    "eth-proof": "^1.0.0",
+    "rlp": "^3.0.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.0",
+    "typescript": "^5.2.0",
+    "ts-node": "^10.9.0"
+  }
+}
