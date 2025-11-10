@@ -1,6 +1,6 @@
 # Cross-Chain USDC Staking Platform
 
-A decentralized cross-chain staking platform that allows users to deposit USDC on Ethereum, automatically bridge it to Vara Network as wUSDC, and earn 15% APY through automated staking with swUSDC tokens.
+A decentralized cross-chain staking platform that allows users to deposit USDC on Ethereum, automatically bridge it to Vara Network as wUSDC, and earn 15% APY through automated staking with vwUSDC tokens.
 
 ## 🌟 Features
 
